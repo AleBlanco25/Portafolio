@@ -1,122 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <script src="https://kit.fontawesome.com/fe26cc9556.js" crossorigin="anonymous"></script>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="./style/style.css">
-</head>
-<body>
-
-  
+    <script
+      src="https://kit.fontawesome.com/fe26cc9556.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
     <main class="content">
+      <nav class="navbar">
+        <a class="my_logo" href="#home">AB</a>
+        <ul class="menu show_menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about_me">About me</a></li>
+          <li><a href="#my_skills">My skills</a></li>
+          <!-- <li><a href="#experience">Experience</a></li> -->
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <button class="download">
+            <a
+              class="resume"
+              target="_blank"
+              href="./Source/Alejandro Blanco Resume.pdf"
+              >Download Resume</a
+            >
+          </button>
+        </ul>
 
-        <nav class="navbar">
+        <div class="menu_icon">
+          <i class="bx bx-menu"></i>
+          <!-- <img src="./Source/Iconos/bx-menu.svg" alt="menu"> -->
+        </div>
+      </nav>
 
-            <a class="my_logo" href="#home">AB</a>
-            <ul class="menu show_menu">
-                <li><a href=#home>Home</a></li>           
-                <li><a href=#about_me >About me</a></li>
-                <li><a href="#my_skills">My skills</a></li>
-                <!-- <li><a href="#experience">Experience</a></li> -->
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-    
-            <div class="menu_icon">
-                <i class='bx bx-menu'></i>
-                <!-- <img src="./Source/Iconos/bx-menu.svg" alt="menu"> -->
-            </div>
-    
-        </nav>
-
-        <section id="home" class="section_1">
-
-            <div class="container">
-                <div class="profile_img">
+      <section id="home" class="section_1">
+        <div class="container">
+          <!-- <div class="profile_img">
                     <img class="myself" src="./Source/Imagenes/me22.png" alt="me" width="350px">    
-                </div>   
+                </div>    -->
 
-                <h4 class="name">
-                    Hey, I'm Alejandro
-                </h4>
-                <h2 class="profession">
-                    Fullstack developer
-                </h2>
+          <h4 class="name">Hey, I'm Alejandro</h4>
+          <h2 class="profession">Fullstack developer</h2>
 
-                <div class="network_logo">
-                    <img src="./Source/Iconos/linkedin.svg" alt="linkedin">
-                    <img src="" alt="Github"><i class="fa-brands fa-github"></i>
-                    <!-- <img src="" alt="Twitter"> -->
-                </div>
+          <div class="network_logo">
+            <img src="./Source/Iconos/linkedin.svg" alt="linkedin" />
+            <img src="" alt="Github" /><i class="fa-brands fa-github"></i>
+            <!-- <img src="" alt="Twitter"> -->
+          </div>
+        </div>
+      </section>
+
+      <section id="about_me" class="section_2">
+        <h2 class="about">About me</h2>
+        <p class="bio">
+          I consider myself as an easy going person, easy to relay with,
+          adaptable, expressive, reliable and commited to my responsabilities.
+          I've always liked to finish what I start. I'm also very enthusiastic
+          when it comes to learn and develop new skills. I like the challenging
+          situations where I can prove my knowledges and my habilities. As a
+          civil engineer I worked with all kind personnel in hard conditions and
+          limited resources and managed to make the work done efficiently on
+          time. I constantly push myself further in a demanding way, trying to
+          always do my best. I am well organized and always plan ahead to make
+          sure I manage my time well.
+
+          <!-- I am a hard working, honest individual. I am a good timekeeper, always willing to learn new skills. I am friendly, helpful and polite, have a good sense of humour. I am able to work independently in busy environments and also within a team setting. I am outgoing and tactful, and able to listen effectively when solving problems -->
+        </p>
+      </section>
+
+      <section id="my_skills" class="section_3">
+        <h2 class="myskills" id="my_skills">My skills</h2>
+        <div class="skills">
+          <div class="skill">
+            <div class="img_background">
+              <i class="fa-brands fa-js"></i>
             </div>
+            <p class="info">JavaScript</p>
+          </div>
 
-        </section>
-
-        <section id="about_me" class="section_2">
-
-            <h2 class="about">
-                About me
-            </h2>
-            <p class="bio">
-            I consider myself as an easy going person, easy to relay with, adaptable, expressive, reliable and commited to my responsabilities. I've always liked to finish what I start. I also very enthusiastic when it comes to learn and develop new skills. I like the challenging situations where I can prove my knowledges and my habilities. As a civil engineer I worked with all kind personnel in hard conditions and limited resources and managed to make the work done efficiently on time. I constantly push myself further in a demanding way, trying to always do my best. I am well organized and always plan ahead to make sure I manage my time well. 
-
-            <!-- I am a hard working, honest individual. I am a good timekeeper, always willing to learn new skills. I am friendly, helpful and polite, have a good sense of humour. I am able to work independently in busy environments and also within a team setting. I am outgoing and tactful, and able to listen effectively when solving problems -->
-            </p>
-
-        </section>
-
-        <section id="my_skills" class="section_3">
-
-            <h2 class="myskills" id="my_skills">
-                My skills
-            </h2>
-            <div class="skills">
-                
-                <div class="skill">
-                    <div class="img_background">          
-                        <i class="fa-brands fa-js"></i>    
-                    </div>
-                    <p class="info"> 
-                    JavaScript
-                    </p>
-                </div>
-
-                <div class="skill">
-                    <div class="img_background">
-                        <i class="fa-brands fa-react"></i>
-                    </div>
-                    <p class="info"> 
-                        ReactJs
-                    </p>
-                </div>
-
-                <div class="skill">
-                    <div class="img_background">
-                        <i class="fa-brands fa-node"></i>
-                    </div>
-                    <p class="info"> 
-                        NodeJs 
-                    </p>
-                </div>
-
-                <div class="skill">
-                    <div class="img_background">
-                        <i class="fa-brands fa-github"></i>
-                    </div>
-                    <p class="info"> 
-                        GitHub
-                    </p>
-                </div>
-                
+          <div class="skill">
+            <div class="img_background">
+              <i class="fa-brands fa-react"></i>
             </div>
+            <p class="info">ReactJs</p>
+          </div>
 
-        </section>
-        
-        <!-- <section id="experience" class="section_4">
+          <div class="skill">
+            <div class="img_background">
+              <i class="fa-brands fa-node"></i>
+            </div>
+            <p class="info">NodeJs</p>
+          </div>
+
+          <div class="skill">
+            <div class="img_background">
+              <i class="fa-brands fa-github"></i>
+            </div>
+            <p class="info">GitHub</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- <section id="experience" class="section_4">
         
             <h2 class="experience" id="experience">
                 Experience
@@ -151,68 +145,97 @@
         
         </section>   -->
 
-        <section id="portfolio" class="section_5">
+      <section id="portfolio" class="section_5">
+        <h2 class="portfolio" id="portfolio">Portfolio</h2>
+        <div class="images">
+          <div>
+            <a
+              class="span-name"
+              href="https://famous-swan-d5c041.netlify.app/"
+              target="_blank"
+              ><img
+                src="./Source/Imagenes/Ecommerce.jpg"
+                alt="example1"
+                class="mywork_1"
+            /></a>
+            <br /><span class="span"
+              ><a
+                class="span-name"
+                href="https://famous-swan-d5c041.netlify.app/"
+                target="_blank"
+                >Ecommerce</a
+              ></span
+            >
+          </div>
+          <div>
+            <a
+              class="span-name"
+              href="http://radiant-tiramisu-25d7b5.netlify.app/"
+              target="_blank"
+              ><img
+                src="./Source/Imagenes/Rick&Morty.jpg"
+                alt="example2"
+                class="mywork_2"
+            /></a>
+            <br /><span class="span"
+              ><a
+                class="span-name"
+                href="http://radiant-tiramisu-25d7b5.netlify.app/"
+                target="_blank"
+                >Rick&Morty</a
+              ></span
+            >
+          </div>
+          <div>
+            <a
+              class="span-name"
+              href="http://thriving-baklava-013977.netlify.app/"
+              target="_blank"
+            >
+              <img
+                src="./Source/Imagenes/Pokemon.jpg"
+                alt="example3"
+                class="mywork_3"
+            /></a>
+            <br /><span class="span"
+              ><a
+                class="span-name"
+                href="http://thriving-baklava-013977.netlify.app/"
+                target="_blank"
+                >PokeApi</a
+              ></span
+            >
+          </div>
+        </div>
+      </section>
 
-            <h2 class="portfolio" id="portfolio">Portfolio</h2>
-            <div class="images">
-                <div>
-                    <a class="span-name" href="https://famous-swan-d5c041.netlify.app/" target="_blank"><img src="./Source/Imagenes/Ecommerce.jpg" alt="example1" class="mywork_1"></a>
-                    <br><span class="span"><a class="span-name" href="https://famous-swan-d5c041.netlify.app/" target="_blank">Ecommerce</a></span>
-                </div>
-                <div>
-                    <a class="span-name" href="http://radiant-tiramisu-25d7b5.netlify.app/" target="_blank"><img src="./Source/Imagenes/Rick&Morty.jpg" alt="example2" class="mywork_2"></a>
-                    <br><span class="span"><a class="span-name" href="http://radiant-tiramisu-25d7b5.netlify.app/" target="_blank">Rick&Morty</a></span>
-                </div>
-
-                <div>
-                    <a class="span-name" href="http://thriving-baklava-013977.netlify.app/" target="_blank"> <img src="./Source/Imagenes/Pokemon.jpg" alt="example3" class="mywork_3"></a>
-                    <br><span class="span"><a class="span-name" href="http://thriving-baklava-013977.netlify.app/" target="_blank">PokeApi</a></span>
-                </div>
+      <footer id="contact" class="section_6">
+        <h2 class="contact" id="contact">Contact</h2>
+        <div class="box">
+          <div class="contact_via">
+            <div class="icon_bg">
+              <img
+                src="./Source/Iconos/phone.svg"
+                alt="celphone"
+                class="phone"
+              />
             </div>
+            <p class="text_number">Cell phone number</p>
+            <p class="number">+58-4249015249</p>
+          </div>
 
-        </section>
-
-        <footer id="contact" class="section_6">
-
-            <h2 class="contact" id="contact">
-                Contact
-            </h2> 
-            <div class="box">
-
-                <div class="contact_via">                      
-                    <div class="icon_bg">
-                        <img src="./Source/Iconos/phone.svg" alt="celphone" class="phone">
-                    </div>
-                        <p class="text_number">
-                            Cell phone number
-                        </p>
-                        <p class="number">
-                            +58-4249015249
-                        </p>
-                </div>
-
-                <div class="contact_via"> 
-                    <div class="icon_bg">
-                        <img src="./Source/Iconos/mail_1.svg" alt="mail" class="email">
-                    </div>
-                        <p class="text_email">
-                            Email
-                        </p>
-                        <p class="email_address">
-                            ale.blanco.2589@gmail.com
-                        </p>
-                </div>
-
-            </div>                   
-            <p class="made_by">Hecho con ❤️ en Academlo</p>
-
-        </footer>
-
-        
+          <div class="contact_via">
+            <div class="icon_bg">
+              <img src="./Source/Iconos/mail_1.svg" alt="mail" class="email" />
+            </div>
+            <p class="text_email">Email</p>
+            <p class="email_address">ale.blanco.2589@gmail.com</p>
+          </div>
+        </div>
+        <p class="made_by">Hecho con ❤️ en Academlo</p>
+      </footer>
     </main>
 
-    <i class='bx bx-menu'></i>
-<script src="./main.js"></script>
-</body>
+    <script src="./main.js"></script>
+  </body>
 </html>
-
